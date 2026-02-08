@@ -364,9 +364,9 @@ setTimeout(function()
 end, 3)
 
 local timer = {
-	running = 5,	--we move length/blength into here
-	length = 5,		--the normal length after teleporting
-	blength = 0.5,	--length after setting a button
+	running = 0,	--we move length/blength into here
+	length = 0,		--the normal length after teleporting
+	blength = 0,	--length after setting a button
 }
 
 local OverlayTimerKey = false -- Overlay gösterimi için
